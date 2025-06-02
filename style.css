@@ -1,0 +1,86 @@
+:root {
+    --primaryColor: #0076de;
+    --whiteColor: #fff;
+    --blackColor: #333;
+    --greyColor: #f6f8fa;
+    --labelColor: #64b1f5;
+    --yellowColor: #ffd723;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito',sans-serif;
+}
+
+body {
+    width:100%;
+    height: auto;
+    background-image:url(WhatsApp\ Image\ 2025-06-02\ at\ 22.22.50_fffcf99e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+.navbar{
+    width:100%;
+    height: 60px;
+    display: flex;
+    
+}
+
+.navbar-top a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.navbar-logo  a{
+    letter-spacing: 2.5;
+    text-decoration: none;
+    color: var(--blackColor);
+}
+
+.navbar-top{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.para1 {
+    color: purple;
+}
+
+.para2 {
+    color: purple;
+}
+
+.para3 {
+    border: #333;
+    color: white;
+}
+.para4 {
+    border: #333;
+    color: white;
+    text-shadow: #333;
+}
+
+.header-title {
+    position: absolute;
+    font-weight: bolder;
+    color: violet;
+    text-shadow: 4px 2px 0px rgba(0, 0, 0, 0,2);
+}
+
+.header-title > span {
+    color:wheat;
+}
